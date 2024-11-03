@@ -1,0 +1,222 @@
+[
+  {
+    "id": "task-001",
+    "title": "Thiết kế wireframe Kanban board",
+    "description": "Phác thảo wireframe cho 3 cột Cần làm / Đang làm / Hoàn thành, đảm bảo bố cục responsive trên mobile và desktop.",
+    "status": "done",
+    "priority": "high",
+    "tags": ["ui", "design"],
+    "dueDate": "2024-09-05",
+    "createdAt": "2024-08-20T08:00:00.000Z",
+    "assignee": "Nguyễn Minh Anh"
+  },
+  {
+    "id": "task-002",
+    "title": "Khởi tạo dự án Vite + React 18 + TypeScript",
+    "description": "Cấu hình Vite, bật strict mode cho TypeScript và thiết lập cấu trúc thư mục chuẩn cho Lab 2.",
+    "status": "done",
+    "priority": "high",
+    "tags": ["setup", "vite"],
+    "dueDate": "2024-08-22",
+    "createdAt": "2024-08-21T02:30:00.000Z",
+    "assignee": "Trần Quốc Bảo"
+  },
+  {
+    "id": "task-003",
+    "title": "Cấu hình Tailwind CSS với darkMode class",
+    "description": "Khai báo darkMode: 'class', mở rộng bảng màu primary Emerald #059669 và tạo các component class dùng chung.",
+    "status": "done",
+    "priority": "medium",
+    "tags": ["tailwind", "config"],
+    "dueDate": "2024-08-24",
+    "createdAt": "2024-08-22T09:15:00.000Z",
+    "assignee": "Lê Thu Hà"
+  },
+  {
+    "id": "task-004",
+    "title": "Xây dựng TaskContext với useReducer",
+    "description": "Quản lý toàn bộ state Kanban (thêm/sửa/xoá/di chuyển task) bằng useReducer kết hợp Context API, không dùng thư viện ngoài.",
+    "status": "in-progress",
+    "priority": "high",
+    "tags": ["state", "context"],
+    "dueDate": "2024-09-18",
+    "createdAt": "2024-09-01T03:00:00.000Z",
+    "assignee": "Nguyễn Minh Anh"
+  },
+  {
+    "id": "task-005",
+    "title": "Tích hợp infinite scroll cho danh sách",
+    "description": "Dùng IntersectionObserver để tự động tải thêm task khi người dùng cuộn tới cuối mỗi cột Kanban.",
+    "status": "in-progress",
+    "priority": "medium",
+    "tags": ["feature", "scroll"],
+    "dueDate": "2024-09-20",
+    "createdAt": "2024-09-02T07:45:00.000Z",
+    "assignee": "Trần Quốc Bảo"
+  },
+  {
+    "id": "task-006",
+    "title": "Hoàn thiện Dark/Light mode toggle",
+    "description": "Thêm nút chuyển theme trên Header, lưu lựa chọn vào localStorage và áp dụng class 'dark' lên thẻ html.",
+    "status": "in-progress",
+    "priority": "high",
+    "tags": ["theme", "feature"],
+    "dueDate": "2024-09-19",
+    "createdAt": "2024-09-02T10:20:00.000Z",
+    "assignee": "Lê Thu Hà"
+  },
+  {
+    "id": "task-007",
+    "title": "Lưu trạng thái yêu thích vào localStorage",
+    "description": "Cho phép gắn sao công việc, đồng bộ danh sách favorites xuống localStorage và thêm bộ lọc chỉ hiện task yêu thích.",
+    "status": "in-progress",
+    "priority": "medium",
+    "tags": ["feature", "storage"],
+    "dueDate": "2024-09-21",
+    "createdAt": "2024-09-03T01:10:00.000Z",
+    "assignee": "Phạm Gia Huy"
+  },
+  {
+    "id": "task-008",
+    "title": "Thiết kế trang chi tiết công việc",
+    "description": "Xây dựng route /item/:id hiển thị đầy đủ thông tin task, kèm nút chỉnh sửa, xoá và quay lại bảng Kanban.",
+    "status": "todo",
+    "priority": "high",
+    "tags": ["page", "design"],
+    "dueDate": "2024-09-25",
+    "createdAt": "2024-09-04T05:00:00.000Z",
+    "assignee": "Nguyễn Minh Anh"
+  },
+  {
+    "id": "task-009",
+    "title": "Modal thêm/sửa có focus trap và phím ESC",
+    "description": "Đảm bảo modal đóng bằng phím ESC, giữ focus bên trong dialog khi nhấn Tab/Shift+Tab và trả focus về nơi mở modal.",
+    "status": "todo",
+    "priority": "high",
+    "tags": ["a11y", "modal"],
+    "dueDate": "2024-09-26",
+    "createdAt": "2024-09-04T08:30:00.000Z",
+    "assignee": "Đỗ Khánh Linh"
+  },
+  {
+    "id": "task-010",
+    "title": "Viết unit test cho utils bằng Vitest",
+    "description": "Bao phủ 4 hàm tiện ích: formatDate, searchTasks, loadFromStorage và saveToStorage với các trường hợp biên.",
+    "status": "todo",
+    "priority": "low",
+    "tags": ["testing", "vitest"],
+    "dueDate": "2024-09-28",
+    "createdAt": "2024-09-05T02:00:00.000Z",
+    "assignee": "Trần Quốc Bảo"
+  },
+  {
+    "id": "task-011",
+    "title": "Cấu hình react-router-dom v6 hai route",
+    "description": "Khai báo BrowserRouter với route '/' cho bảng Kanban và '/item/:id' cho trang chi tiết, chỉ dùng Link để điều hướng.",
+    "status": "todo",
+    "priority": "high",
+    "tags": ["router", "setup"],
+    "dueDate": "2024-09-24",
+    "createdAt": "2024-09-05T06:45:00.000Z",
+    "assignee": "Phạm Gia Huy"
+  },
+  {
+    "id": "task-012",
+    "title": "Thiết lập ESLint flat config",
+    "description": "Cấu hình ESLint 9 với typescript-eslint, react-hooks và bật rule chặn hoàn toàn kiểu 'any'.",
+    "status": "done",
+    "priority": "low",
+    "tags": ["tooling", "eslint"],
+    "dueDate": "2024-08-26",
+    "createdAt": "2024-08-25T04:00:00.000Z",
+    "assignee": "Đỗ Khánh Linh"
+  },
+  {
+    "id": "task-013",
+    "title": "Responsive cho Kanban board trên mobile",
+    "description": "Chuyển grid 3 cột thành 1 cột trên màn hình nhỏ, điều chỉnh padding và kích thước chữ cho dễ đọc.",
+    "status": "todo",
+    "priority": "medium",
+    "tags": ["ui", "responsive"],
+    "dueDate": "2024-09-29",
+    "createdAt": "2024-09-06T03:20:00.000Z",
+    "assignee": "Lê Thu Hà"
+  },
+  {
+    "id": "task-014",
+    "title": "Rà soát accessibility: aria-label và contrast",
+    "description": "Bổ sung aria-label cho các nút chỉ có icon, kiểm tra tỉ lệ tương phản màu chữ ở cả hai chế độ sáng/tối.",
+    "status": "in-progress",
+    "priority": "medium",
+    "tags": ["a11y", "review"],
+    "dueDate": "2024-09-27",
+    "createdAt": "2024-09-06T09:00:00.000Z",
+    "assignee": "Đỗ Khánh Linh"
+  },
+  {
+    "id": "task-015",
+    "title": "Tối ưu hiệu năng render với useMemo",
+    "description": "Ghi nhớ kết quả lọc/tìm kiếm và value của Context để hạn chế re-render không cần thiết trên bảng Kanban.",
+    "status": "todo",
+    "priority": "medium",
+    "tags": ["performance", "react"],
+    "dueDate": "2024-09-30",
+    "createdAt": "2024-09-07T01:30:00.000Z",
+    "assignee": "Nguyễn Minh Anh"
+  },
+  {
+    "id": "task-016",
+    "title": "Chuẩn bị 20 bản ghi tasks.json mẫu",
+    "description": "Soạn dữ liệu khởi tạo gồm 20 công việc thuộc đủ 3 trạng thái và 3 mức ưu tiên để demo tính năng infinite scroll.",
+    "status": "done",
+    "priority": "low",
+    "tags": ["data", "json"],
+    "dueDate": "2024-08-28",
+    "createdAt": "2024-08-27T07:00:00.000Z",
+    "assignee": "Phạm Gia Huy"
+  },
+  {
+    "id": "task-017",
+    "title": "Thiết kế trạng thái rỗng (empty state)",
+    "description": "Hiển thị thông điệp thân thiện kèm nút gợi ý khi cột Kanban không có công việc hoặc bộ lọc không trả về kết quả.",
+    "status": "todo",
+    "priority": "medium",
+    "tags": ["ui", "ux"],
+    "dueDate": "2024-10-02",
+    "createdAt": "2024-09-08T02:15:00.000Z",
+    "assignee": "Lê Thu Hà"
+  },
+  {
+    "id": "task-018",
+    "title": "Hiệu ứng chuyển động cho TaskCard",
+    "description": "Thêm transition khi hover, khi đổi trạng thái yêu thích và khi task xuất hiện lần đầu trong danh sách.",
+    "status": "in-progress",
+    "priority": "low",
+    "tags": ["animation", "ui"],
+    "dueDate": "2024-10-01",
+    "createdAt": "2024-09-08T08:40:00.000Z",
+    "assignee": "Trần Quốc Bảo"
+  },
+  {
+    "id": "task-019",
+    "title": "Triển khai demo lên Vercel",
+    "description": "Kết nối repository GitHub với Vercel, cấu hình build command và kiểm tra lại toàn bộ luồng CRUD sau khi deploy.",
+    "status": "todo",
+    "priority": "high",
+    "tags": ["deploy", "devops"],
+    "dueDate": "2024-10-05",
+    "createdAt": "2024-09-09T00:50:00.000Z",
+    "assignee": "Phạm Gia Huy"
+  },
+  {
+    "id": "task-020",
+    "title": "Viết README và hướng dẫn chạy dự án",
+    "description": "Mô tả công nghệ sử dụng, các tính năng bắt buộc đã hoàn thành, cách cài đặt và chạy test bằng Vitest.",
+    "status": "done",
+    "priority": "low",
+    "tags": ["docs"],
+    "dueDate": "2024-08-30",
+    "createdAt": "2024-08-29T03:10:00.000Z",
+    "assignee": "Đỗ Khánh Linh"
+  }
+]
